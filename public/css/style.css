@@ -122,6 +122,7 @@ a, a:active, a:hover {
   padding: 1rem;
   background-color: black;
   color: white;
+  border: 1px solid black;
   -webkit-transition: 200ms ease-in-out;
   transition: 200ms ease-in-out;
 }
@@ -217,5 +218,20 @@ a, a:active, a:hover {
 
 .header__links a:hover::before {
   background: #2d314d;
+}
+
+.hero__image {
+  position: relative;
+  background-image: url("/images/web/banner/cerveza-fondo-slider.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 17.5rem;
+}
+
+@media (min-width: 40em) {
+  .hero__image {
+    min-height: 32.5rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

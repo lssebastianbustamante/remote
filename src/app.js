@@ -4,11 +4,14 @@ const favicon = require('express-favicon');
 
 const app = express();
 
+
 // Carpeta Public
 app.use(express.static('public'));
 
 // Motor de Plantillas EJS
 app.set('view engine', 'ejs');
+
+
 
 // Requerir Rutas
 const webRoutes = require('./routes/web');
