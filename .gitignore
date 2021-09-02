@@ -1,0 +1,5 @@
+# Dependecias de Node
+node_modules
+
+# Carpeta SCSS 
+/public/scss
