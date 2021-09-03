@@ -1,0 +1,26 @@
+.hero {
+
+    &__image {
+        position: relative;
+        background-image: url('/images/web/banner/cerveza-fondo-slider.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        min-height: 17.5rem;
+
+        @include breakpoints-up(medium) {
+            min-height: 32.5rem;
+        }
+    }
+}
+
+.products {
+
+    &__conten {
+        
+    }
+
+    &__item {
+        
+    }
+}

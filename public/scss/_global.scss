@@ -1,0 +1,65 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Public Sans', sans-serif;
+  }
+
+a, a:active, a:hover {
+  text-decoration: none;
+}  
+
+// Flexbox
+
+.flex {
+  display: flex;
+
+  &-jc-sb {
+    justify-content: space-between;
+  }
+
+  &-jc-c {
+    justify-content: center;
+  }
+
+  &-ai-c {
+    align-items: center;
+  }
+}
+
+.button {
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  transition:  200ms ease-in-out;
+
+
+  &:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+  }
+}
+
+ //Visibility
+ .hide-for-mobile { //Hide for mobile and tablet
+  @include breakpoints-down (medium) {
+    display: none;
+  }
+}
+
+.hide-for-desktop { //Hide for mobile and tablet
+  @include breakpoints-up (large) {
+    display: none;
+  }
+}
