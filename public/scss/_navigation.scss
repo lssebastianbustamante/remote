@@ -1,10 +1,15 @@
 .header {
     nav {
         padding: 17px 24px;
+
+        @include breakpoints-up(large) {
+            padding: 17px 0;
+        }
     }
 
     &__logo {
-        @include breakpoints-down(medium) {
+
+        @include breakpoints-down(large) {
             img {
                 width: 9.375rem;
                 height: 4.375rem;

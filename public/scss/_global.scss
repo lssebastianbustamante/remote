@@ -19,6 +19,56 @@ a, a:active, a:hover {
 }  
 
 // Flexbox
+.container {
+  max-width: 69.375rem;
+  margin: 0 auto;
+
+  &--pall {
+    padding-top: 4.375rem; 
+    padding-right: 1.5rem;
+    padding-bottom: 4.375rem;
+    padding-left: 1.5rem;
+
+    @include breakpoints-up(large) {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
+  }
+  &--py { // Padding Top Bottom
+    padding-top: 4.375rem;
+    padding-bottom: 4.375rem;
+
+    @include breakpoints-up(large) {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
+  }
+  &--px {// Padding Right Left
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  &--pt { // Padding Top
+    padding-top: 1rem;
+
+    @include breakpoints-up(large) {
+      padding-top: 2rem;
+    }
+  }
+  &--pr {// Padding Right
+    padding-right: 1.5rem;
+  }
+  &--pb {// Padding Bottom
+    padding-bottom: 4.375rem;
+
+    @include breakpoints-up(large) {
+      padding-bottom: 6rem;
+    }
+  }
+  &--pf {
+    padding-left: 1.5rem;
+  }
+  
+}
 
 .flex {
   display: flex;
