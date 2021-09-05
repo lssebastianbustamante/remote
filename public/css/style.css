@@ -290,6 +290,13 @@ a, a:active, a:hover {
   background: #2d314d;
 }
 
+.product {
+  background-color: #f3f4f6;
+  height: auto;
+  padding-bottom: 30px;
+  padding-top: 8px;
+}
+
 .product__conten {
   padding: 0 24px;
 }
@@ -386,6 +393,11 @@ a, a:active, a:hover {
   }
 }
 
+.hero {
+  height: auto;
+  padding-bottom: 30px;
+}
+
 .hero__image {
   position: relative;
   background-image: url("/images/web/banner/cerveza-fondo-slider.jpg");
@@ -399,6 +411,13 @@ a, a:active, a:hover {
   .hero__image {
     min-height: 32.5rem;
   }
+}
+
+.product {
+  background-color: #f3f4f6;
+  height: auto;
+  padding-bottom: 30px;
+  padding-top: 8px;
 }
 
 .product__conten {
