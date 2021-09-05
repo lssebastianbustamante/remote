@@ -20,7 +20,7 @@ a, a:active, a:hover {
 
 // Flexbox
 .container {
-  max-width: 69.375rem;
+  max-width: 130rem;
   margin: 0 auto;
 
   &--pall {
@@ -92,6 +92,7 @@ a, a:active, a:hover {
   color: white;
   border: 1px solid black;
   transition:  200ms ease-in-out;
+  text-transform: uppercase;
 
 
   &:hover {

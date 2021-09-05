@@ -10,7 +10,7 @@
 
         <main>
             <section class="hero">
-                <div class="container">
+                <div class="">
                     <div class="hero__image"></div>
                 </div>
             </section>
@@ -20,7 +20,9 @@
                     <h1>PRODUCTOS</h1>
                     <div class="product__grid">
                         <a href="" class="product__item">
-                            <div class="product__image"></div>
+                            <div class="product__image">
+                                <img src="/images/products/product 5.png" alt="imagen-producto"> 
+                            </div>
                             <div class="product__text">
                                 <span class="product__title">Cerveza Andina</span>
                                 <span class="product__price">$ 120</span>
@@ -28,7 +30,9 @@
                             </div>
                         </a>
                         <a href="" class="product__item">
-                            <div class="product__image"></div>
+                            <div class="product__image">
+                                <img src="/images/products/product 4.png" alt="imagen-producto"> 
+                            </div>
                             <div class="product__text">
                                 <span class="product__title">Cerveza Andina</span>
                                 <span class="product__price">$ 120</span>
@@ -36,7 +40,9 @@
                             </div>
                         </a>
                         <a href="" class="product__item">
-                            <div class="product__image"></div>
+                            <div class="product__image">
+                                <img src="/images/products/product 1.png" alt="imagen-producto"> 
+                            </div>
                             <div class="product__text">
                                 <span class="product__title">Cerveza Andina</span>
                                 <span class="product__price">$ 120</span>
@@ -44,7 +50,19 @@
                             </div>
                         </a>
                         <a href="" class="product__item">
-                            <div class="product__image"></div>
+                            <div class="product__image">
+                                <img src="/images/products/product 2.png" alt="imagen-producto"> 
+                            </div>
+                            <div class="product__text">
+                                <span class="product__title">Cerveza Andina</span>
+                                <span class="product__price">$ 120</span>
+                                <p>Amber Layer</p>
+                            </div>
+                        </a>
+                        <a href="" class="product__item">
+                            <div class="product__image">
+                               <img src="/images/products/product 3.png" alt="imagen-producto"> 
+                            </div>
                             <div class="product__text">
                                 <span class="product__title">Cerveza Andina</span>
                                 <span class="product__price">$ 120</span>
@@ -52,6 +70,66 @@
                             </div>
                         </a>
                     </div>
+                </div>
+            </section>
+            <section class="trademark">
+                <div class="trademark__content container flex flex- flex-ai-c flex-jc-sb">
+                    <div class="trademark__item">
+                        <div class="trademark__image">
+                            <img src="/images/web/marcas/logo-fauna.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="trademark__item">
+                        <div class="trademark__image">
+                            <img src="/images/web/marcas/logo-guinness.png" alt="">
+                        </div>
+                    </div>
+                    <div class="trademark__item">
+                        <div class="trademark__image">
+                            <img src="/images/web/marcas/logo-antares-nuevo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="trademark__item">
+                        <div class="trademark__image">
+                            <img src="/images/web/marcas/logo-chachingo.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="trademark__item">
+                        <div class="trademark__image">
+                            <img src="/images/web/marcas/logo-libertadores.png" alt="">
+                        </div>
+                    </div>
+                    <div class="trademark__item">
+                        <div class="trademark__image">
+                            <img src="/images/web/marcas/logo-penon-aguila.png" alt="">
+                        </div>
+                    </div>    
+                </div>
+            </section>
+            <section class="contact">
+                <h2>contacto</h2>
+                <div class="container flex flex-jc-sb flex-ai-c">
+                    <form action="" class="form">
+                        <div class="contact__left">
+                            <div class="form-wrap">
+                                <div class="input-wrap">
+                                    <input required type="text" class="form-control" name="first_name" placeholder="Nombre" value="<%= typeof old != 'undefined' ? old.first_name : '' %>">
+                                    
+                                </div>
+                                <div class="input-wrap">
+                                    <input type="text" class="form-control" name="last_name" placeholder="Apellido" value="<%= typeof old != 'undefined' ? old.last_name : '' %>">
+                                </div>
+                                <div class="input-wrap">
+                                    <input type="email" class="form-control" name="email" placeholder="Email" value="<%= typeof old != 'undefined' ? old.email : '' %>">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact__right">
+                            <div class="input_wrap">
+                                <textarea name="comentario" id=""></textarea>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </section>
         </main>

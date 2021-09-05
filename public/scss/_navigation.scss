@@ -61,7 +61,14 @@
             transition: color 200ms ease-in-out;
             font-weight: 700;
             &:not(:last-child) {
-                margin-right: 0.725rem;
+                margin-right: 3.725rem;
+            }
+
+            @include breakpoints-up(large) {
+                &:not(:last-child) {
+                    
+                    margin-right: 1.725rem;
+                }
             }
 
             &::before {
@@ -79,7 +86,7 @@
                 color: $darkBlue;
 
                 &::before {
-                    background: $darkBlue;
+                    background: $blueGreen;
                 }
             }
         }

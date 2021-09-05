@@ -1,0 +1,14 @@
+.trademark {
+
+    background-color: $white;
+    height: auto;
+
+    &__content {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    &__image img{
+        width: auto;
+        height: 150px;
+    }
+}

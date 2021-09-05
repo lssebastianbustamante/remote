@@ -1,0 +1,55 @@
+.form-wrap {
+
+}
+
+.form {
+   padding: 2.5rem;
+   margin: 1.5rem;
+   width: 100%;
+   border-radius: 1rem;
+}
+
+.input-wrap {
+    align-items: center;
+    margin-top: 1.25rem;
+}
+
+.input-wrap p {
+    font-size: medium;
+}
+.input-wrap input {
+    width: 100%;
+    font-size: medium;
+    font-weight: 500;
+    padding: 0.25rem 0;
+    border: none;
+    border-bottom: 1px solid black;
+    transition: 500ms esae all;
+
+    &::placeholder {
+        text-align: center;
+    }
+
+    &:focus {
+        outline: none;
+        box-shadow: 0 1px 0 0 #FFB803;
+        border-color: #FFB803;
+    }
+
+    & textarea {
+        width: 100%;
+    }
+}
+
+
+.input-wrap input[type="checkbox"] {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 0.625rem;
+}
+
+.input-wrap input[type="checkbox"]:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: none;
+}

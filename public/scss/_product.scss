@@ -1,16 +1,22 @@
 .product {
     background-color: $lightGrayishBlue;
     height: auto;
-    padding-bottom: 30px;
-    padding-top: 8px;
+    padding-bottom: 150px;
+    padding-top: 30px;
+
+    & h1 {
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        color: $blueGreen;
+        font-weight: 700;
+    }
 
     &__conten {
         padding: 0 24px;
 
-        @include breakpoints-up (large) {
+        @include breakpoints-up(large) {
             padding: 0;
         }
-
     }
     
     &__grid {
@@ -24,7 +30,7 @@
        }
 
        @include breakpoints-up(large) {
-           grid-template-columns: repeat(4, 1fr);
+           grid-template-columns: repeat(5, 1fr);
        }
     }
 
@@ -41,15 +47,12 @@
     }
 
     &__image {
-        background-image: url('../images/products/product\ 1.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center center;
-        height: 12.5rem;
+       text-align: center;
+       margin-bottom: 1rem;
     }
 
     &__text {
-        color: $darkBlue;
+        color: $grayishBlue;
         padding: 1.875rem 1.875rem 2.5rem 1.875rem;
 
         @include breakpoints-up(medium) {
@@ -60,7 +63,8 @@
 
     &__title{
         font-size:22px;
-        color:#393c45;
+        color:$darkBlue;
+        font-weight: 700;
         @include breakpoints-up(large) {
             font-size: 20px;
         }	
