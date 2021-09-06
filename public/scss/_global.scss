@@ -23,6 +23,10 @@ a, a:active, a:hover {
   max-width: 130rem;
   margin: 0 auto;
 
+  @include breakpoints-up(xlarge) {
+    max-width: 90rem;
+  }
+
   &--pall {
     padding-top: 4.375rem; 
     padding-right: 1.5rem;

@@ -14,6 +14,40 @@
                     <div class="hero__image"></div>
                 </div>
             </section>
+            <section class="trademark">
+                <div class="trademark__content container container--px flex flex- flex-ai-c flex-jc-sb">
+                    <div class="trademark__item">
+                        <div class="trademark__image">
+                            <img src="/images/web/marcas/logo-fauna.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="trademark__item">
+                        <div class="trademark__image">
+                            <img src="/images/web/marcas/logo-guinness.png" alt="">
+                        </div>
+                    </div>
+                    <div class="trademark__item">
+                        <div class="trademark__image">
+                            <img src="/images/web/marcas/logo-antares-nuevo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="trademark__item">
+                        <div class="trademark__image">
+                            <img src="/images/web/marcas/logo-chachingo.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="trademark__item">
+                        <div class="trademark__image">
+                            <img src="/images/web/marcas/logo-libertadores.png" alt="">
+                        </div>
+                    </div>
+                    <div class="trademark__item">
+                        <div class="trademark__image">
+                            <img src="/images/web/marcas/logo-penon-aguila.png" alt="">
+                        </div>
+                    </div>    
+                </div>
+            </section>
 
             <section class="product">
                 <div class="product__conten container container--pt">
@@ -59,7 +93,7 @@
                                 <p>Amber Layer</p>
                             </div>
                         </a>
-                        <a href="" class="product__item">
+                        <a href="" class="product__item hide-for-mobile">
                             <div class="product__image">
                                <img src="/images/products/product 3.png" alt="imagen-producto"> 
                             </div>
@@ -72,46 +106,55 @@
                     </div>
                 </div>
             </section>
-            <section class="trademark">
-                <div class="trademark__content container flex flex- flex-ai-c flex-jc-sb">
-                    <div class="trademark__item">
-                        <div class="trademark__image">
-                            <img src="/images/web/marcas/logo-fauna.jpg" alt="">
+            
+            
+            <section class="feature">
+                <h3>WHY THIS IS AWESOME</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisici elit. Veniam, quasi?</p>
+                <div class="container flex flex-jc-sb flex-ai-c">
+                    <div class="feature__item">
+                        <div class="feature__icon">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <div class="feature__title">
+                            <p>envio a todo el pais</p>
+                        </div>
+                        <div class="feature__description">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum quibusdam error commodi atque nesciunt excepturi, ut sunt voluptas eius.</p>
                         </div>
                     </div>
-                    <div class="trademark__item">
-                        <div class="trademark__image">
-                            <img src="/images/web/marcas/logo-guinness.png" alt="">
+                    <div class="feature__item">
+                        <div class="feature__icon">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <div class="feature__title">
+                            <p>envio a todo el pais</p>
+                        </div>
+                        <div class="feature__description">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum quibusdam error commodi atque nesciunt excepturi, ut sunt voluptas eius.</p>
                         </div>
                     </div>
-                    <div class="trademark__item">
-                        <div class="trademark__image">
-                            <img src="/images/web/marcas/logo-antares-nuevo.png" alt="">
+                    <div class="feature__item">
+                        <div class="feature__icon">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <div class="feature__title">
+                            <p>envio a todo el pais</p>
+                        </div>
+                        <div class="feature__description">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum quibusdam error commodi atque nesciunt excepturi, ut sunt voluptas eius.</p>
                         </div>
                     </div>
-                    <div class="trademark__item">
-                        <div class="trademark__image">
-                            <img src="/images/web/marcas/logo-chachingo.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="trademark__item">
-                        <div class="trademark__image">
-                            <img src="/images/web/marcas/logo-libertadores.png" alt="">
-                        </div>
-                    </div>
-                    <div class="trademark__item">
-                        <div class="trademark__image">
-                            <img src="/images/web/marcas/logo-penon-aguila.png" alt="">
-                        </div>
-                    </div>    
                 </div>
             </section>
+
             <section class="contact">
                 <h2>contacto</h2>
-                <div class="container flex flex-jc-sb flex-ai-c">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="container flex flex-ai-c">
                     <form action="" class="form">
                         <div class="contact__left">
-                            <div class="form-wrap">
+                            <div class="form__wrap">
                                 <div class="input-wrap">
                                     <input required type="text" class="form-control" name="first_name" placeholder="Nombre" value="<%= typeof old != 'undefined' ? old.first_name : '' %>">
                                     
@@ -125,9 +168,12 @@
                             </div>
                         </div>
                         <div class="contact__right">
-                            <div class="input_wrap">
-                                <textarea name="comentario" id=""></textarea>
+                            <div class="input-wrap">
+                                <textarea name="comentario" id="" placeholder="Mensaje"></textarea>
                             </div>
+                        </div>
+                        <div class="form__cta flex flex-ai-c">
+                            <a href="" type="submit" class="button">enviar</a>
                         </div>
                     </form>
                 </div>
