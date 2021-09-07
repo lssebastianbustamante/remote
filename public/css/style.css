@@ -542,6 +542,79 @@ a, a:active, a:hover {
   background-color: #f3f4f6;
 }
 
+.detail {
+  background-color: #f3f4f6;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.detail__left {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 27.9375rem;
+}
+
+.detail__left img {
+  width: 37%;
+}
+
+.detail__right {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 27.9375rem;
+}
+
+.detail__title h1 {
+  font-size: 3.25rem;
+  margin: 0;
+  color: #ffb700;
+}
+
+.detail__info {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.featured {
+  color: #4acfae;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.featured h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #4acfae;
+}
+
+.featured__more {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.featured__more > button {
+  font-size: 1.25rem;
+}
+
 .hero {
   height: auto;
   padding-bottom: 30px;
@@ -672,6 +745,79 @@ a, a:active, a:hover {
 
 .product .input-wrap input {
   background-color: #f3f4f6;
+}
+
+.detail {
+  background-color: #f3f4f6;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.detail__left {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 27.9375rem;
+}
+
+.detail__left img {
+  width: 37%;
+}
+
+.detail__right {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 27.9375rem;
+}
+
+.detail__title h1 {
+  font-size: 3.25rem;
+  margin: 0;
+  color: #ffb700;
+}
+
+.detail__info {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.featured {
+  color: #4acfae;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.featured h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #4acfae;
+}
+
+.featured__more {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.featured__more > button {
+  font-size: 1.25rem;
 }
 
 .trademark {

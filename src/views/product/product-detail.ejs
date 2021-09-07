@@ -8,8 +8,94 @@
 
         <%- include('../partials/navigation')%>
 
+            <section class="detail">
+                <div class="container flex flex-ai-c">
+                    <div class="detail__left">
+                        <img src="/images/products/product 3.png" alt="">
+                    </div>
+                    <div class="detail__right">
+                        <div class="detail__title">
+                            <h1>Cerveza</h1>
+                        </div>
+                        <div class="detail__price">
+                            <span>$ 210</span>
+                            <span>Descuento</span>
+                        </div>
+                        <div class="detail__info">
+                            <p>Variedad: <span>IPA</span></p>
+                            <p>Amargor: <span>Medio</span></p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, blanditiis.</p>
+                        </div>
+                        <form action="">
+                            <button class="button">Agregar al carrito</button>
+                        </form>
 
-        <%- include('../partials/footer')%>
+                    </div>
+                </div>
+            </section>
+            <section class="featured">
+                <div class="container">
+                    <h2>productos destacados</h2>
+                    <div class="product__grid">
+                        <a href="/product" class="product__item">
+                            <div class="product__image">
+                                <img src="/images/products/product 5.png" alt="imagen-producto">
+                            </div>
+                            <div class="product__text">
+                                <span class="product__title">Cerveza Andina</span>
+                                <span class="product__price">$ 120</span>
+                                <p>Amber Layer</p>
+                            </div>
+                        </a>
+                        <a href="/product" class="product__item">
+                            <div class="product__image">
+                                <img src="/images/products/product 4.png" alt="imagen-producto">
+                            </div>
+                            <div class="product__text">
+                                <span class="product__title">Cerveza Andina</span>
+                                <span class="product__price">$ 120</span>
+                                <p>Amber Layer</p>
+                            </div>
+                        </a>
+                        <a href="/product" class="product__item">
+                            <div class="product__image">
+                                <img src="/images/products/product 1.png" alt="imagen-producto">
+                            </div>
+                            <div class="product__text">
+                                <span class="product__title">Cerveza Andina</span>
+                                <span class="product__price">$ 120</span>
+                                <p>Amber Layer</p>
+                            </div>
+                        </a>
+                        <a href="/product" class="product__item">
+                            <div class="product__image">
+                                <img src="/images/products/product 2.png" alt="imagen-producto">
+                            </div>
+                            <div class="product__text">
+                                <span class="product__title">Cerveza Andina</span>
+                                <span class="product__price">$ 120</span>
+                                <p>Amber Layer</p>
+                            </div>
+                        </a>
+                        <a href="/product" class="product__item hide-for-mobile">
+                            <div class="product__image">
+                                <img src="/images/products/product 3.png" alt="imagen-producto">
+                            </div>
+                            <div class="product__text">
+                                <span class="product__title">Cerveza Andina</span>
+                                <span class="product__price">$ 120</span>
+                                <p>Amber Layer</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="featured__more">
+                        <button class="button">Mostrar Mas</button>
+                    </div>
+                </div>
+            </section>
+
+
+            <%- include('../partials/footer')%>
 
     </body>
 
