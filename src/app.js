@@ -16,10 +16,12 @@ app.set('view engine', 'ejs');
 // Requerir Rutas
 const webRoutes = require('./routes/web');
 const productRoutes = require('./routes/product');
+const userRoutes = require('./routes/user');
 
 // Rutas
 app.use(webRoutes);
 app.use(productRoutes);
+app.use(userRoutes);
 
 // Favicon 
 app.use(favicon(__dirname + '/public/images/icons/favicon.png')); //Favicon

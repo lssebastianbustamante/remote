@@ -588,9 +588,34 @@ a, a:active, a:hover {
   color: #ffb700;
 }
 
+.detail__price p:nth-child(1) {
+  margin: 0;
+  font-size: 3.25rem;
+  font-weight: 700;
+  color: #4acfae;
+}
+
 .detail__info {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  width: 46%;
+}
+
+.detail__info p {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: black;
+  margin: 0;
+}
+
+.detail__info span {
+  font-size: 1.125rem;
+  color: #ffb700;
+}
+
+.detail__info p:nth-child(3) {
+  margin-top: 20px;
+  font-size: 0.875rem;
+  color: black;
+  font-weight: normal;
 }
 
 .featured {
@@ -600,7 +625,7 @@ a, a:active, a:hover {
 }
 
 .featured h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-transform: uppercase;
   color: #4acfae;
 }
@@ -613,6 +638,28 @@ a, a:active, a:hover {
 
 .featured__more > button {
   font-size: 1.25rem;
+}
+
+.quantity {
+  padding: 14px;
+  margin-left: 20px;
+}
+
+.quantity label {
+  font-size: 1.125rem;
+  color: #ffb700;
+}
+
+.quantity select {
+  width: 40px;
+  height: 40px;
+}
+
+.quantity select:focus, .quantity select :hover {
+  outline: none;
+  -webkit-box-shadow: 0 1px 0 0 #FFB803;
+          box-shadow: 0 1px 0 0 #FFB803;
+  border-color: #FFB803;
 }
 
 .hero {
@@ -793,9 +840,34 @@ a, a:active, a:hover {
   color: #ffb700;
 }
 
+.detail__price p:nth-child(1) {
+  margin: 0;
+  font-size: 3.25rem;
+  font-weight: 700;
+  color: #4acfae;
+}
+
 .detail__info {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  width: 46%;
+}
+
+.detail__info p {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: black;
+  margin: 0;
+}
+
+.detail__info span {
+  font-size: 1.125rem;
+  color: #ffb700;
+}
+
+.detail__info p:nth-child(3) {
+  margin-top: 20px;
+  font-size: 0.875rem;
+  color: black;
+  font-weight: normal;
 }
 
 .featured {
@@ -805,7 +877,7 @@ a, a:active, a:hover {
 }
 
 .featured h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-transform: uppercase;
   color: #4acfae;
 }
@@ -818,6 +890,28 @@ a, a:active, a:hover {
 
 .featured__more > button {
   font-size: 1.25rem;
+}
+
+.quantity {
+  padding: 14px;
+  margin-left: 20px;
+}
+
+.quantity label {
+  font-size: 1.125rem;
+  color: #ffb700;
+}
+
+.quantity select {
+  width: 40px;
+  height: 40px;
+}
+
+.quantity select:focus, .quantity select :hover {
+  outline: none;
+  -webkit-box-shadow: 0 1px 0 0 #FFB803;
+          box-shadow: 0 1px 0 0 #FFB803;
+  border-color: #FFB803;
 }
 
 .trademark {
