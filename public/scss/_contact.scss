@@ -2,7 +2,43 @@
     background-color: $lightGrayishBlue;
     height: auto;
     padding-top: 30px;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    & .form {
+        width: 70%;
+        padding: 2.5rem;
+        margin: 1.5rem;
+        border-radius: 1rem;
+        box-shadow: none;
+        background-color: $lightGrayishBlue;
+
+        & input {
+            background-color: $lightGrayishBlue;
+      
+         }
+
+         & textarea {
+            width: 100%;
+            height: 181px;
+            background-color: $lightGrayishBlue;
+            font-size: $font-sm;
+            font-family: 'Open Sans', sans-serif;
+            border: none;
+            border-bottom: 1px solid black;
+            transition: 500ms esae all;
+
+            &:focus {
+                outline: none;
+                box-shadow: 0 1px 0 0 #FFB803;
+                border-color: #FFB803;
+             }
+         }
+
+    }
 
     & h2 {
         margin-bottom: 2rem;

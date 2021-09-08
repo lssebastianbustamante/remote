@@ -6,7 +6,40 @@
     <body>
 
         <%- include('../partials/navigation')%>
-        <%- include('../partials/footer')%>
+
+            <section class="login">
+
+                <div class="form-wrap">
+                    <div class="form login-form">
+                        <h1>iniciar sesion</h1>
+                        <form action="">
+                            <div class="input-wrap">
+                                <input type="text" placeholder="Usuario o E-mail">
+                            </div>
+                            <div class="input-wrap">
+                                <input type="password" placeholder="Contraseña">
+                            </div>
+                            <div class="input-wrap login">
+                                <button type="submit">Iniciar Sesion</button>
+                                <input type="checkbox">
+                                <p>Recordarme</p>
+                            </div>
+                            <div class="form-botton">
+                                <div class="input-wrap">
+                                    <a href="">¿Olvidaste tu Contraseña?</a>
+                                </div>
+                                <div class="input-wrap">
+                                    <p>No tienes cuenta, registrate <a href="/users/register">aqui</a></p>
+                                </div>
+                            </div>
+                        </form>
+                        
+                    </div>
+                </div>
+
+            </section>
+
+            <%- include('../partials/footer')%>
 
     </body>
 

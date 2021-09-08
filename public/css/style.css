@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;600;700;800;900&display=swap");
 .has-fade {
   visibility: hidden;
 }
@@ -77,6 +78,7 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-size: 100%;
+  font-family: 'Catamaran', sans-serif;
 }
 
 *, *::before, *::after {
@@ -87,7 +89,6 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Public Sans', sans-serif;
 }
 
 a, a:active, a:hover {
@@ -303,53 +304,51 @@ a, a:active, a:hover {
   background: #4acfae;
 }
 
+section.login {
+  background-color: #f3f4f6;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section.register {
+  background-color: #f3f4f6;
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.form-botton {
+  margin-top: 20px;
+}
+
+.form-botton .input-wrap {
+  margin: 5px;
+}
+
 .form {
   padding: 2.5rem;
   margin: 1.5rem;
-  width: 100%;
+  background-color: white;
+  width: 34.375rem;
   border-radius: 1rem;
-}
-
-.form__wrap input {
-  width: 100%;
-  background-color: #f3f4f6;
-  font-size: medium;
-  font-weight: 500;
-  border: none;
-  border-bottom: 1px solid black;
-  -webkit-transition: 500ms esae all;
-  transition: 500ms esae all;
-}
-
-.form__wrap input::-webkit-input-placeholder {
-  text-align: center;
-  font-family: sans-serif;
-  font-size: large;
-}
-
-.form__wrap input:-ms-input-placeholder {
-  text-align: center;
-  font-family: sans-serif;
-  font-size: large;
-}
-
-.form__wrap input::-ms-input-placeholder {
-  text-align: center;
-  font-family: sans-serif;
-  font-size: large;
-}
-
-.form__wrap input::placeholder {
-  text-align: center;
-  font-family: sans-serif;
-  font-size: large;
-}
-
-.form__wrap input:focus {
-  outline: none;
-  -webkit-box-shadow: 0 1px 0 0 #FFB803;
-          box-shadow: 0 1px 0 0 #FFB803;
-  border-color: #FFB803;
+  -webkit-box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.15);
 }
 
 .form__cta {
@@ -365,56 +364,39 @@ a, a:active, a:hover {
   text-align: center;
 }
 
+.form h1 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
 .input-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 4.25rem;
 }
 
-.input-wrap textarea {
+.input-wrap p {
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.input-wrap input {
   width: 100%;
-  min-height: 200px;
-  background-color: #f3f4f6;
+  font-size: medium;
+  font-weight: 500;
+  padding: 0.25rem 0;
+  margin-bottom: 1.25rem;
+  margin-top: 1.25rem;
   border: none;
   border-bottom: 1px solid black;
   -webkit-transition: 500ms esae all;
   transition: 500ms esae all;
-}
-
-.input-wrap textarea::-webkit-input-placeholder {
-  text-align: left;
-  font-family: sans-serif;
-  font-size: large;
-}
-
-.input-wrap textarea:-ms-input-placeholder {
-  text-align: left;
-  font-family: sans-serif;
-  font-size: large;
-}
-
-.input-wrap textarea::-ms-input-placeholder {
-  text-align: left;
-  font-family: sans-serif;
-  font-size: large;
-}
-
-.input-wrap textarea::placeholder {
-  text-align: left;
-  font-family: sans-serif;
-  font-size: large;
-}
-
-.input-wrap textarea:focus {
-  outline: none;
-  -webkit-box-shadow: 0 1px 0 0 #FFB803;
-          box-shadow: 0 1px 0 0 #FFB803;
-  border-color: #FFB803;
-}
-
-.input-wrap p {
-  font-size: medium;
 }
 
 .input-wrap input[type="checkbox"] {
@@ -428,6 +410,48 @@ a, a:active, a:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
   border-color: none;
+}
+
+.input-wrap input::-webkit-input-placeholder {
+  text-align: center;
+}
+
+.input-wrap input:-ms-input-placeholder {
+  text-align: center;
+}
+
+.input-wrap input::-ms-input-placeholder {
+  text-align: center;
+}
+
+.input-wrap input::placeholder {
+  text-align: center;
+}
+
+.input-wrap input:focus {
+  outline: none;
+  -webkit-box-shadow: 0 1px 0 0 #FFB803;
+          box-shadow: 0 1px 0 0 #FFB803;
+  border-color: #FFB803;
+}
+
+.input-wrap button {
+  text-transform: uppercase;
+  margin: 0 auto;
+  font-size: medium;
+  cursor: pointer;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+}
+
+.input-wrap button:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
 }
 
 .product {
@@ -997,6 +1021,52 @@ a, a:active, a:hover {
   background-color: #f3f4f6;
   height: auto;
   padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact .form {
+  width: 70%;
+  padding: 2.5rem;
+  margin: 1.5rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #f3f4f6;
+}
+
+.contact .form input {
+  background-color: #f3f4f6;
+}
+
+.contact .form textarea {
+  width: 100%;
+  height: 181px;
+  background-color: #f3f4f6;
+  font-size: 0.875rem;
+  font-family: 'Open Sans', sans-serif;
+  border: none;
+  border-bottom: 1px solid black;
+  -webkit-transition: 500ms esae all;
+  transition: 500ms esae all;
+}
+
+.contact .form textarea:focus {
+  outline: none;
+  -webkit-box-shadow: 0 1px 0 0 #FFB803;
+          box-shadow: 0 1px 0 0 #FFB803;
+  border-color: #FFB803;
 }
 
 .contact h2 {
@@ -1023,6 +1093,21 @@ a, a:active, a:hover {
 .contact__right {
   float: right;
   width: 48%;
+}
+
+.login button {
+  width: 50%;
+  margin: 0;
+  margin-right: 1rem;
+}
+
+.form-botton a {
+  margin: 0 auto;
+  text-decoration: underline;
+}
+
+.form-botton p {
+  margin: 0 auto;
 }
 
 .footer {
