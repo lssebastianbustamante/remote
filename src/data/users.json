@@ -1,0 +1,50 @@
+[
+  {
+    "nombre": "Gerardo",
+    "apellido": "Aquino",
+    "email": "gerardoaquino@mail.com",
+    "password": "$2a$10$OfUWF3qCu3NI/rWEqVSOlOAtgAbO3Zz.fFYbMhbeN889EtBY1.zcq",
+    "avatar": "foto-1631142044718.png",
+    "role": 1
+  },
+  {
+    "nombre": "Luis",
+    "apellido": "Bustamante",
+    "email": "luis@deveit.com",
+    "password": "$2a$10$xCgwxwccaE4z5Jk3nP6vVOh7cctsSslKRgOVu.QT/HK40ZimB.S6G",
+    "avatar": "foto-1631142198197.png",
+    "role": 1
+  },
+  {
+    "nombre": "Luis",
+    "apellido": "Bustamante",
+    "email": "",
+    "password": "$2a$10$0V9pH.p1Ksa3FIqAoUWwGu1k4OKyyZMCUxW69q9IL9.AZIuWws.6u",
+    "avatar": "",
+    "role": 1
+  },
+  {
+    "nombre": "Luisadasd",
+    "apellido": "Bustamante",
+    "email": "luis@deveit.com",
+    "password": "$2a$10$NmBHAQX/mw2NCvCXOlAlHeVu/r8r5EAhMB25f.JroSn.pZn1gjxA.",
+    "avatar": "foto-1631144142113.png",
+    "role": 1
+  },
+  {
+    "nombre": "Luis",
+    "apellido": "Bustamante",
+    "email": "laura@gmail.com",
+    "password": "$2a$10$FCyyVW7YV7sTwhd1H0qlVOBp9g6htxiH2m7haRc/GQfO8o0Ox7VAW",
+    "avatar": "foto-1631145998768.png",
+    "role": 1
+  },
+  {
+    "nombre": "Luis",
+    "apellido": "Bustamante",
+    "email": "laura@gmail.com",
+    "password": "$2a$10$oif5uIT2W87dyPH.UyTH5OhIJhAsUHVdiQj4Q.mwDl4Enjt6Y.0iC",
+    "avatar": "foto-1631146103189.png",
+    "role": 1
+  }
+]

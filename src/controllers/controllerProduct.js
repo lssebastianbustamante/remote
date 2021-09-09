@@ -6,7 +6,8 @@ let products = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../data/produ
 module.exports = {
     index: (req,res) => {
         res.render(path.resolve(__dirname, '../views/product/product-detail'), { 
-            title: "Product"
+            title: "Product",
+            products
         });
     }
 }
