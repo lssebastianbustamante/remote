@@ -1110,6 +1110,114 @@ section.register {
   margin: 0 auto;
 }
 
+.admin {
+  background-color: #f3f4f6;
+  height: 79vh;
+}
+
+.admin .container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.admin .container .create {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  padding: 2.5rem;
+  background-color: white;
+  width: 100%;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+.table__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  width: 100%;
+  border-bottom: 1px solid #dadada;
+}
+
+.table__row a {
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.table__row a:hover {
+  opacity: 0.5;
+}
+
+.table__row a:not(:last-child) {
+  margin-right: 10px;
+}
+
+.table__row a.eye {
+  color: #4acfae;
+}
+
+.table__row a.edit {
+  color: #ffb700;
+}
+
+.table__row a.delete {
+  color: #d60000;
+}
+
+.table .heading {
+  background-color: #ececec;
+  color: #3e3e3e;
+  font-weight: bold;
+}
+
+.row__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: 1.25rem;
+  padding: 8px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.row__sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
 .footer {
   background-color: black;
   color: white;

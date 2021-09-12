@@ -46,5 +46,7 @@ app.use('/admin', adminRoutes);
 app.use(favicon(__dirname + '/public/images/icons/favicon.png')); //Favicon
 
 // Servidor
-app.listen(3033, 'localhost', ()=> console.log('Servidor corriendo en el puerto 3001'));
+const port = ('3033');
+
+app.listen(port, 'localhost', ()=> console.log('Servidor corriendo en el puerto ' + port));
 

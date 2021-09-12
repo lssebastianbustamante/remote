@@ -53,56 +53,26 @@
                 <div class="product__conten container container--pt">
                     <h1>PRODUCTOS</h1>
                     <div class="product__grid">
-                        <a href="/product" class="product__item">
-                            <div class="product__image">
-                                <img src="/images/products/product 5.png" alt="imagen-producto"> 
-                            </div>
-                            <div class="product__text">
-                                <span class="product__title">Cerveza Andina</span>
-                                <span class="product__price">$ 120</span>
-                                <p>Amber Layer</p>
-                            </div>
-                        </a>
-                        <a href="/product" class="product__item">
-                            <div class="product__image">
-                                <img src="/images/products/product 4.png" alt="imagen-producto"> 
-                            </div>
-                            <div class="product__text">
-                                <span class="product__title">Cerveza Andina</span>
-                                <span class="product__price">$ 120</span>
-                                <p>Amber Layer</p>
-                            </div>
-                        </a>
-                        <a href="/product" class="product__item">
-                            <div class="product__image">
-                                <img src="/images/products/product 1.png" alt="imagen-producto"> 
-                            </div>
-                            <div class="product__text">
-                                <span class="product__title">Cerveza Andina</span>
-                                <span class="product__price">$ 120</span>
-                                <p>Amber Layer</p>
-                            </div>
-                        </a>
-                        <a href="/product" class="product__item">
-                            <div class="product__image">
-                                <img src="/images/products/product 2.png" alt="imagen-producto"> 
-                            </div>
-                            <div class="product__text">
-                                <span class="product__title">Cerveza Andina</span>
-                                <span class="product__price">$ 120</span>
-                                <p>Amber Layer</p>
-                            </div>
-                        </a>
-                        <a href="/product/" class="product__item hide-for-mobile">
-                            <div class="product__image">
-                               <img src="/images/products/product 3.png" alt="imagen-producto"> 
-                            </div>
-                            <div class="product__text">
-                                <span class="product__title">Cerveza Andina</span>
-                                <span class="product__price">$ 120</span>
-                                <p>Amber Layer</p>
-                            </div>
-                        </a>
+                   
+                        <% products.forEach(product => { %>
+                            
+                            <% if (product.descuento == 30) { %>
+                                
+                                <a href="/product/detail/id:" class="product__item">
+                                    <div class="product__image">
+                                        <img src="/images/products/<%= product.imagen%>" alt="imagen-producto"> 
+                                    </div>
+                                    <div class="product__text">
+                                        <span class="product__title"><%= product.nombre%></span>
+                                        <span class="product__price">$ <%= product.precio%></span>
+                                        <p>Amber Layer</p>
+                                    </div>
+                                </a>
+
+                            <% } %>
+
+                        <% }) %>
+
                     </div>
                 </div>
             </section>

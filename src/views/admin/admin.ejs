@@ -6,12 +6,49 @@
     <body>
 
         <%- include('../partials/navigation')%>
-    
+
             <section class="admin">
-                
+
+                <div class="container flex">
+                    <div class="create">
+                        <a href="/admin/create" class="button">Crear</a>
+                    </div>
+                    <div class="table">
+
+                        <div class="table__row heading">
+                            <div class="row__item">ID</div>
+                            <div class="row__item">Nombre</div>
+                            <div class="row__item">Descripcion</div>
+                            <div class="row__item">Precio</div>
+                            <div class="row__item">Acciones</div>
+
+                        </div>
+                        <% products.forEach(product => { %>
+                         
+                            <div class="table__row">
+                                <div class="row__item"><%= product.id%></div>
+                                <div class="row__item"><%= product.nombre%></div>
+                                <div class="row__item"><%= product.descripcion%>.</div>
+                                <div class="row__item">$ <span> <%= product.precio%></span></div>
+                                <div class="row__sub">
+                                    <div class="row__item ">
+                                        <a href="/admin/detail/<%= product.id%>" class="eye"><i class="far fa-eye"></i></a>
+                                    </div>
+                                    <div class="row__item">
+                                        <a href="" class="edit"><i class="fas fa-pen"></i></a>
+                                    </div>
+                                    <div class="row__item">
+                                        <a href="" class="delete"><i class="fas fa-trash-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <% }) %>
+                    </div>
+                </div>
             </section>
 
-        <%- include('../partials/footer')%>
+            <%- include('../partials/footer')%>
 
     </body>
 

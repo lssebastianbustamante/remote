@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<%- include('../partials/head')%>
+
+    <body>
+
+        <%- include('../partials/navigation')%>
+
+            <section class="detail">
+                <div class="container flex flex-ai-c">
+                    <div class="detail__left">
+                        <img src="/images/products/<%= myProduct.imagen%>" alt="">
+                    </div>
+                    <div class="detail__right">
+                        <div class="detail__title">
+                            <h1>
+                                <%= myProduct.nombre%>
+                            </h1>
+                        </div>
+                        <div class="detail__price">
+                            <p>$<span>
+                                    <%= myProduct.precio%>
+                                </span></p>
+                        </div>
+                        <div class="detail__info">
+                            <p>Variedad: <span>IPA</span></p>
+                            <p>Amargor: <span>Medio</span></p>
+                            <p>
+                                <%= myProduct.descripcion%>
+                            </p>
+                        </div>
+                        <div class="flex flex-ai-c">
+                            <a href="/admin" class="button">volver</a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <%- include('../partials/footer')%>
+
+    </body>
+
+</html>

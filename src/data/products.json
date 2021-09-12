@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": 6,
+    "nombre": "Antares Atlantica",
+    "descripcion": "Cerveza hecho con agua de mar, con gran cuerpo y saber intenso",
+    "precio": "120",
+    "descuento": "30",
+    "imagen": "product-1631206140071.png"
+  },
+  {
+    "id": 7,
+    "nombre": "Antares Honey",
+    "descripcion": "Cerveza hecha con miel, con gran cuerpo y saber intenso",
+    "precio": "120",
+    "descuento": "30",
+    "imagen": "product-1631206270218.png"
+  },
+  {
+    "id": 8,
+    "nombre": "Antares Caravana",
+    "descripcion": "Cerveza hecha con miel, con gran cuerpo y saber intenso",
+    "precio": "123",
+    "descuento": "30",
+    "imagen": "product-1631206328303.png"
+  },
+  {
+    "id": 9,
+    "nombre": "Antares IPA",
+    "descripcion": "Cerveza hecha con miel, con gran cuerpo y saber intenso",
+    "precio": "120",
+    "descuento": "30",
+    "imagen": "product-1631206381267.png"
+  },
+  {
+    "id": 10,
+    "nombre": "Antares Kolsch",
+    "descripcion": "Cerveza hecha con miel, con gran cuerpo y saber intenso",
+    "precio": "120",
+    "descuento": "30",
+    "imagen": "product-1631207774938.png"
+  }
+]

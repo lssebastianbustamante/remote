@@ -1,5 +1,84 @@
-section.admin {
+.admin {
     background-color: $lightGrayishBlue;
-    height: 75vh;
+    height: 79vh;
+
+    & .container {
+        flex-direction: column;
+
+        & .create {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+    }
+    
+}
+  
+.table {
     display: flex;
+    flex-flow: column nowrap;
+    padding: 2.5rem;
+    background-color: white;
+    width: 100%;
+    border-radius: 1rem;
+    box-shadow: 0px 3px 12px rgba(0,0,0,0.15);
+
+    &__row {
+        display: flex;
+        flex-flow: row nowrap;
+        width: 100%;
+        border-bottom: 1px solid #dadada;
+
+        & a {
+
+            text-decoration: none;
+            
+            &:hover {
+                opacity: 0.5;
+            }
+            font-size: 2rem;
+            &:not(:last-child) {
+                margin-right: 10px;
+            }
+
+            &.eye {
+                color: $blueGreen;
+            }
+        
+            &.edit {
+                color: $yellowGold;
+            }
+        
+            &.delete {
+                color: $red;
+            }
+        }
+    }
+
+    & .heading {
+        background-color: #ececec;
+        color: #3e3e3e;
+        font-weight: bold;
+      }
+}
+
+.row {
+    &__item {
+        display: flex;
+        flex: 1;
+        font-size: $font-lg;
+        padding: 8px 0;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.15s ease-in-out;
+
+        
+    }
+
+    &__sub  {
+        display: flex;
+        flex-flow: row nowrap;
+        flex: 1;
+    }
+
+    
 }

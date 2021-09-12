@@ -16,8 +16,10 @@ var storage = multer.diskStorage({
 
 const upload = multer({ storage })
 
-router.get('/', controllerAdmin.index)
-router.get('/create', controllerAdmin.create)
+router.get('/', controllerAdmin.index);
+router.get('/create', controllerAdmin.create);
+router.post('/create', upload.single('imagen'), controllerAdmin.save);
+router.get('/detail/:id', controllerAdmin.show);
 
 module.exports = router;
 
