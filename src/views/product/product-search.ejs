@@ -7,43 +7,7 @@
 
         <%- include('../partials/navigation')%>
 
-            <section class="detail">
-                <div class="container flex flex-ai-c">
-                    <div class="detail__left">
-                        <img src="/images/products/<%= detailProduct.imagen%>" alt="">
-                    </div>
-                    <div class="detail__right">
-                        <div class="detail__title">
-                            <h1><%= detailProduct.nombre%></h1>
-                        </div>
-                        <div class="detail__price">
-                            <p>$<span><%= detailProduct.precio%></span></p>
-                        </div>
-                        <div class="detail__info">
-                            <p>Variedad: <span>IPA</span></p>
-                            <p>Amargor: <span>Medio</span></p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, architecto expedita! Sapiente ipsam labore voluptatum delectus tempore velit dolorum minus qui quibusdam maiores atque, hic, quaerat voluptate. Ex, fugit fuga?.</p>
-                        </div>
-                        <form action="" class="flex flex-ai-c">
-                            <button class="button">Agregar al carrito</button>
-                            <div class="quantity">
-                                <label for="quantity">Cantidad: </label>
-                                <select name="quantity">
-                                    <option value="1"> 1 </option>
-                                    <option value="2"> 2 </option>
-                                    <option value="3"> 3 </option>
-                                    <option value="4"> 4 </option>
-                                    <option value="5"> 5 </option>
-                                    <option value="6"> 6 </option>
-                                    <option value="7"> 7 </option>
-                                    <option value="8"> 8 </option>
-                                </select>
-                            </div>
-                        </form>
-
-                    </div>
-                </div>
-            </section>
+       
             <section class="featured">
                 <div class="container">
                     <h2>productos destacados</h2>

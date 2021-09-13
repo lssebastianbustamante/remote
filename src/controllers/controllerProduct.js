@@ -5,10 +5,31 @@ let products = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../data/produ
 
 module.exports = {
     detail: (req,res) => {
-        let product = req.params.id;
-        res.render(path.resolve(__dirname, '../views/product/product-detail'), { 
-            title: "Product",
-            products
+        let detailProduct;
+        products.forEach(product => {
+            if (product.id == req.params.id) {
+                detailProduct = product;
+            }
         });
+
+        res.render(path.resolve(__dirname, '../views/product/product-detail'), {
+            title: 'Detalle',
+            detailProduct
+        })
+    },
+
+    search: (req,res) => {
+        let productSearch = req.query.productSearch;
+        let productResult;
+        products.forEach(product => {
+            if (product.nombre.includes(req.query.productSearch)) {
+                productResult = product;
+            }
+        });
+
+        res.render(path.resolve(__dirname, '../views/product/product-search'),{
+            title: 'Resultado',
+            productResult
+        })
     }
 }
