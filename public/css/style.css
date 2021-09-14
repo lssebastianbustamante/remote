@@ -1112,7 +1112,7 @@ section.register {
 
 .admin {
   background-color: #f3f4f6;
-  height: 79vh;
+  min-height: 100vh;
 }
 
 .admin .container {
@@ -1138,9 +1138,11 @@ section.register {
   padding: 2.5rem;
   background-color: white;
   width: 100%;
+  height: auto;
   border-radius: 1rem;
   -webkit-box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.15);
+  margin-bottom: 100px;
 }
 
 .table__row {

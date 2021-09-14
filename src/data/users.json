@@ -46,5 +46,13 @@
     "password": "$2a$10$oif5uIT2W87dyPH.UyTH5OhIJhAsUHVdiQj4Q.mwDl4Enjt6Y.0iC",
     "avatar": "foto-1631146103189.png",
     "role": 1
+  },
+  {
+    "nombre": "tit",
+    "apellido": "ririr",
+    "email": "ad@mail.com",
+    "password": "$2a$10$pq/DkcBgBmpNmH.T77.V/eDWmqTHhkMnQOVhXQcazUqL3jf363hX.",
+    "avatar": "foto-1631618938856.png",
+    "role": 1
   }
 ]

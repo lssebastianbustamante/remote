@@ -38,5 +38,45 @@
     "precio": "120",
     "descuento": "30",
     "imagen": "product-1631207774938.png"
+  },
+  {
+    "id": 11,
+    "nombre": "Ceveza tito",
+    "descripcion": "adasdasdasd",
+    "precio": "13123123",
+    "descuento": "15",
+    "imagen": "product-1631618782624.png"
+  },
+  {
+    "id": 12,
+    "nombre": "luis sebastian",
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "precio": "13123",
+    "descuento": "30",
+    "imagen": "product-1631631176001.png"
+  },
+  {
+    "id": 13,
+    "nombre": "luis sebastian",
+    "descripcion": "Lorem ipsum dolor sit amet consecetur ab officia, molestiae provident.",
+    "precio": "123",
+    "descuento": "15",
+    "imagen": "product-1631646838916.pdf"
+  },
+  {
+    "id": 14,
+    "nombre": "asd",
+    "descripcion": "asdasdasd",
+    "precio": "123123123",
+    "descuento": "15",
+    "imagen": "product-1631646854355.pdf"
+  },
+  {
+    "id": 15,
+    "nombre": "asdasd",
+    "descripcion": "asdasdasd",
+    "precio": "1111111",
+    "descuento": "15",
+    "imagen": "product-1631646939238.pdf"
   }
 ]

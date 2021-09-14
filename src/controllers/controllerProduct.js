@@ -22,14 +22,14 @@ module.exports = {
         let productSearch = req.query.productSearch;
         let productResult;
         products.forEach(product => {
-            if (product.nombre.includes(req.query.productSearch)) {
-                productResult = product;
+            if (product.nombre.find(req.query.productSearch)) {
+                res.render(path.resolve(__dirname, '../views/product/product-search'),{
+                    title: 'Resultado',
+                    
+                    
+                })
             }
         });
 
-        res.render(path.resolve(__dirname, '../views/product/product-search'),{
-            title: 'Resultado',
-            productResult
-        })
     }
 }
