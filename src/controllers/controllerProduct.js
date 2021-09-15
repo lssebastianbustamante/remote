@@ -14,7 +14,8 @@ module.exports = {
 
         res.render(path.resolve(__dirname, '../views/product/product-detail'), {
             title: 'Detalle',
-            detailProduct
+            detailProduct,
+            products
         })
     },
 

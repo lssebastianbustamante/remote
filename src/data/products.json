@@ -1,17 +1,82 @@
 [
   {
-    "nombre": "Cerveza Antares",
-    "descripcion": "Cerveza hecha con miel, con gran cuerpo y saber intenso",
-    "precio": "13512",
+    "id": 3,
+    "nombre": "Antares Atlántica",
+    "descripcion": "Cerveza de gran cuerpo y agradable sabor en boca. Hecha a base de los mejores Lupulos",
+    "precio": "250",
     "descuento": "30",
-    "id": "7"
+    "imagen": "product-1631733210051.png"
+  },
+  {
+    "id": 4,
+    "nombre": "Antares Honey",
+    "descripcion": "Cerveza de gran cuerpo y agradable sabor en boca. Hecha a base de los mejores Lupulos",
+    "precio": "432",
+    "descuento": "30",
+    "imagen": "product-1631733252788.png"
+  },
+  {
+    "id": 5,
+    "nombre": "Antares Caravana",
+    "descripcion": "Cerveza de gran cuerpo y agradable sabor en boca. Hecha a base de los mejores Lupulos",
+    "precio": "512",
+    "descuento": "30",
+    "imagen": "product-1631733287951.png"
+  },
+  {
+    "id": 6,
+    "nombre": "Antares Kolsh",
+    "descripcion": "Cerveza de gran cuerpo y agradable sabor en boca. Hecha a base de los mejores Lupulos",
+    "precio": "123",
+    "descuento": "15",
+    "imagen": "product-1631733314186.png"
+  },
+  {
+    "id": 7,
+    "nombre": "Antares IPA",
+    "descripcion": "Cerveza de gran cuerpo y agradable sabor en boca. Hecha a base de los mejores Lupulos",
+    "precio": "469",
+    "descuento": "15",
+    "imagen": "product-1631733348118.png"
   },
   {
     "id": 8,
-    "nombre": "Cerveza Chanchingo",
-    "descripcion": "Cerveza hecha con miel, con gran cuerpo y saber intenso",
-    "precio": "145",
+    "nombre": "Antares Mix",
+    "descripcion": "Cerveza de gran cuerpo y agradable sabor en boca. Hecha a base de los mejores Lupulos",
+    "precio": "1236",
     "descuento": "30",
-    "imagen": "product-1631663146025.png"
+    "imagen": "product-1631733368092.png"
+  },
+  {
+    "id": 9,
+    "nombre": "Chachingo Mi",
+    "descripcion": "Cerveza de gran cuerpo y agradable sabor en boca. Hecha a base de los mejores Lupulos",
+    "precio": "492",
+    "descuento": "30",
+    "imagen": "product-1631733421110.png"
+  },
+  {
+    "id": 10,
+    "nombre": "Chachingo IPA",
+    "descripcion": "Cerveza de gran cuerpo y agradable sabor en boca. Hecha a base de los mejores Lupulos",
+    "precio": "123",
+    "descuento": "15",
+    "imagen": "product-1631733523317.png"
+  },
+  {
+    "id": 11,
+    "nombre": "Chachingo Pale Ale",
+    "descripcion": "Cerveza de gran cuerpo y agradable sabor en boca. Hecha a base de los mejores Lupulos",
+    "precio": "734",
+    "descuento": "15",
+    "imagen": "product-1631733577206.png"
+  },
+  {
+    "id": 12,
+    "nombre": "Pampa Dorada",
+    "descripcion": "Cerveza de gran cuerpo y agradable sabor en boca. Hecha a base de los mejores Lupulos",
+    "precio": "534",
+    "descuento": "15",
+    "imagen": "product-1631733779125.png"
   }
 ]

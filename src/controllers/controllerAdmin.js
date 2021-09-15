@@ -12,8 +12,7 @@ module.exports = {
     },
     create: (req,res) => {
         res.render(path.resolve(__dirname,'../views/admin/create'), {
-            title : 'Crear Producto',
-            products
+            title : 'Crear Producto'
         })
     },
     save: (req,res) => {
@@ -72,7 +71,7 @@ module.exports = {
     destroy: (req,res) => {
         const productDelete = req.params.id;
         const productFinal = products.filter(product => product.id != productDelete);
-        const productSave = JSON.stringify(productFinal, null, 2);
+        let productSave = JSON.stringify(productFinal, null, 2);
         fs.writeFileSync(path.resolve(__dirname, '../data/products.json'), productSave);
         res.redirect('/admin');
     }
