@@ -67,6 +67,7 @@
 .row {
     &__item {
         display: flex;
+        text-align: center;
         flex: 1;
         font-size: $font-lg;
         padding: 8px 0;
@@ -84,4 +85,22 @@
     }
 
     
+}
+
+.product-create {
+    background-color: $lightGrayishBlue;
+    min-height: 53.5rem;
+    display: flex;
+    align-items: center;
+    & button {
+        margin: 0;
+        padding: 1.2rem;
+    }
+    & form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 37.375rem;
+        height: 40rem;
+    }
 }

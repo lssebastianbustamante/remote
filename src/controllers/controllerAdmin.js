@@ -26,7 +26,7 @@ module.exports = {
            precio: req.body.precio,
            descuento: req.body.descuento,
            imagen: req.file.filename
-       } 
+       }
 
        products.push(newProduct);
        let newProductSave = JSON.stringify(products, null, 2);
@@ -45,5 +45,20 @@ module.exports = {
             title: 'Detalle',
             myProduct
         })
+    },
+    edit: (req,res) => {
+        let productId = req.params.id;
+        let productEdit = products.find(product=> product.id == productId);
+        res.render(path.resolve(__dirname, '../views/admin/edit'),{
+            title: 'Editar Producto',
+            productEdit
+        })
+    },
+    destroy: (req,res) => {
+        const productDelete = req.params.id;
+        const productFinal = products.filter(product => product.id != productDelete);
+        const productSave = JSON.stringify(productFinal, null, 2);
+        fs.writeFileSync(path.resolve(__dirname, '../data/products.json'), productSave);
+        res.redirect('/admin');
     }
 }

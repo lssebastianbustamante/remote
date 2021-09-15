@@ -1192,6 +1192,7 @@ section.register {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  text-align: center;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -1218,6 +1219,37 @@ section.register {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+}
+
+.product-create {
+  background-color: #f3f4f6;
+  min-height: 53.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.product-create button {
+  margin: 0;
+  padding: 1.2rem;
+}
+
+.product-create form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 37.375rem;
+  height: 40rem;
 }
 
 .footer {

@@ -9,74 +9,34 @@
   },
   {
     "id": 7,
-    "nombre": "Antares Honey",
+    "nombre": "Cerveza Antares",
     "descripcion": "Cerveza hecha con miel, con gran cuerpo y saber intenso",
-    "precio": "120",
+    "precio": "135",
     "descuento": "30",
-    "imagen": "product-1631206270218.png"
+    "imagen": "product-1631663114484.png"
   },
   {
     "id": 8,
-    "nombre": "Antares Caravana",
+    "nombre": "Cerveza Chanchingo",
     "descripcion": "Cerveza hecha con miel, con gran cuerpo y saber intenso",
-    "precio": "123",
+    "precio": "145",
     "descuento": "30",
-    "imagen": "product-1631206328303.png"
+    "imagen": "product-1631663146025.png"
   },
   {
     "id": 9,
-    "nombre": "Antares IPA",
+    "nombre": "Pack X 6 Cerveza Chachingo",
     "descripcion": "Cerveza hecha con miel, con gran cuerpo y saber intenso",
-    "precio": "120",
+    "precio": "345",
     "descuento": "30",
-    "imagen": "product-1631206381267.png"
+    "imagen": "product-1631663193744.png"
   },
   {
     "id": 10,
-    "nombre": "Antares Kolsch",
+    "nombre": "Pack X 6 Cerveza Antares",
     "descripcion": "Cerveza hecha con miel, con gran cuerpo y saber intenso",
-    "precio": "120",
+    "precio": "543",
     "descuento": "30",
-    "imagen": "product-1631207774938.png"
-  },
-  {
-    "id": 11,
-    "nombre": "Ceveza tito",
-    "descripcion": "adasdasdasd",
-    "precio": "13123123",
-    "descuento": "15",
-    "imagen": "product-1631618782624.png"
-  },
-  {
-    "id": 12,
-    "nombre": "luis sebastian",
-    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    "precio": "13123",
-    "descuento": "30",
-    "imagen": "product-1631631176001.png"
-  },
-  {
-    "id": 13,
-    "nombre": "luis sebastian",
-    "descripcion": "Lorem ipsum dolor sit amet consecetur ab officia, molestiae provident.",
-    "precio": "123",
-    "descuento": "15",
-    "imagen": "product-1631646838916.pdf"
-  },
-  {
-    "id": 14,
-    "nombre": "asd",
-    "descripcion": "asdasdasd",
-    "precio": "123123123",
-    "descuento": "15",
-    "imagen": "product-1631646854355.pdf"
-  },
-  {
-    "id": 15,
-    "nombre": "asdasd",
-    "descripcion": "asdasdasd",
-    "precio": "1111111",
-    "descuento": "15",
-    "imagen": "product-1631646939238.pdf"
+    "imagen": "product-1631663220850.png"
   }
 ]

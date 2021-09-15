@@ -7,22 +7,23 @@
 
         <%- include('../partials/navigation')%>
 
-            <section class="create">
-
-                <div class="container">
-
+            <section class="product-create ">
+                
+                <div class="container flex flex-jc-c">
+                    
                     <form action="/admin/create" class="form" method="POST" enctype="multipart/form-data">
-                        <div class="form-group">
+                        <h1>Crear Producto</h1>
+                        <div class="input-wrap">
                             <input type="text" name="nombre" placeholder="Nombre" required="required" value="">
                         </div>
-                        <div class="form-group">
+                        <div class="input-wrap">
                             <input type="text" name="descripcion" placeholder="Descripción" required="required"
                                 value="">
                         </div>
-                        <div class="form-group">
+                        <div class="input-wrap">
                             <input type="number" name="precio" placeholder="Precio" required="required" value="">
                         </div>
-                        <div class="form-group">
+                        <div class="input-wrap">
                             <select name="descuento" id="validationCustom04" required>
                                 <option selected disabled value="#">Elija su descuento</option>
                                 <option value="0">Sin descuento</option>
@@ -30,12 +31,12 @@
                                 <option value="30">30%</option>
                             </select>
                         </div>
-                        <div class="custom-file">
+                        <div class="input-wrap">
                             <input type="file" name="imagen">
                         </div>
-                        <div class="form-group">
-                            <button type="submit" class="btn btn btn-info">Guardar</button>
-                            <a href="/admin" class="btn btn-danger">Volver</a>
+                        <div class="input-wrap flex-jc-sb">
+                            <button type="submit" class="button">guardar</button>
+                            <a href="/admin" class="button">Volver</a>
                         </div>
 
                     </form>
