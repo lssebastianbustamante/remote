@@ -21,6 +21,7 @@ router.get('/create', controllerAdmin.create);
 router.post('/create', upload.single('imagen'), controllerAdmin.save);
 router.get('/detail/:id', controllerAdmin.show);
 router.get('/edit/:id', controllerAdmin.edit);
+router.put('/edit/:id', upload.single('imagen'), controllerAdmin.update);
 router.get('/delete/:id', controllerAdmin.destroy);
 
 module.exports = router;

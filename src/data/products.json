@@ -1,19 +1,10 @@
 [
   {
-    "id": 6,
-    "nombre": "Antares Atlantica",
-    "descripcion": "Cerveza hecho con agua de mar, con gran cuerpo y saber intenso",
-    "precio": "120",
-    "descuento": "30",
-    "imagen": "product-1631206140071.png"
-  },
-  {
-    "id": 7,
     "nombre": "Cerveza Antares",
     "descripcion": "Cerveza hecha con miel, con gran cuerpo y saber intenso",
-    "precio": "135",
+    "precio": "13512",
     "descuento": "30",
-    "imagen": "product-1631663114484.png"
+    "id": "7"
   },
   {
     "id": 8,
@@ -22,21 +13,5 @@
     "precio": "145",
     "descuento": "30",
     "imagen": "product-1631663146025.png"
-  },
-  {
-    "id": 9,
-    "nombre": "Pack X 6 Cerveza Chachingo",
-    "descripcion": "Cerveza hecha con miel, con gran cuerpo y saber intenso",
-    "precio": "345",
-    "descuento": "30",
-    "imagen": "product-1631663193744.png"
-  },
-  {
-    "id": 10,
-    "nombre": "Pack X 6 Cerveza Antares",
-    "descripcion": "Cerveza hecha con miel, con gran cuerpo y saber intenso",
-    "precio": "543",
-    "descuento": "30",
-    "imagen": "product-1631663220850.png"
   }
 ]

@@ -54,6 +54,21 @@ module.exports = {
             productEdit
         })
     },
+    update: (req,res) => {
+        req.body.id = req.params.id;
+        req.body.imagen = req.file ? req.file.filename : req.body.oldImagen;
+
+        let productUpdate = products.map(product => {
+            if (product.id == req.body.id) {
+                return product = req.body
+            }
+            return product;
+        })
+
+        let productActualizar = JSON.stringify(productUpdate, null, 2);
+        fs.writeFileSync(path.resolve(__dirname, '../data/products.json'), productActualizar)
+        res.redirect('/admin');
+    },
     destroy: (req,res) => {
         const productDelete = req.params.id;
         const productFinal = products.filter(product => product.id != productDelete);

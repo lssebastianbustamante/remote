@@ -1221,7 +1221,7 @@ section.register {
           flex: 1;
 }
 
-.product-create {
+.product-create, .product-edit {
   background-color: #f3f4f6;
   min-height: 53.5rem;
   display: -webkit-box;
@@ -1232,12 +1232,12 @@ section.register {
           align-items: center;
 }
 
-.product-create button {
+.product-create button, .product-edit button {
   margin: 0;
   padding: 1.2rem;
 }
 
-.product-create form {
+.product-create form, .product-edit form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

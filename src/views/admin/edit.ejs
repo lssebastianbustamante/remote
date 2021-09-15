@@ -7,39 +7,45 @@
 
         <%- include('../partials/navigation')%>
 
-        <section class="product-create ">
+        <section class="product-edit ">
                 
             <div class="container flex flex-jc-c">
                 
-                <form action="/admin/edit/<%= productEdit.id%>?_method=PUT" class="form" method="POST" enctype="multipart/form-data">
-                    <h1>Editar Producto</h1>
-                    <div class="input-wrap">
-                        <input type="text" name="nombre" placeholder="Nombre" required="required" value="<%= productEdit.nombre%>">
-                    </div>
-                    <div class="input-wrap">
-                        <input type="text" name="descripcion" placeholder="Descripción" required="required"
-                            value="<%= productEdit.descripcion%>">
-                    </div>
-                    <div class="input-wrap">
-                        <input type="number" name="precio" placeholder="Precio" required="required" value="<%= productEdit.precio%>">
-                    </div>
-                    <div class="input-wrap">
-                        <select name="descuento" id="validationCustom04" required>
-                            <option selected disabled value="#">Elija su descuento</option>
-                            <option value="0">Sin descuento</option>
-                            <option value="15">15%</option>
-                            <option value="30">30%</option>
-                        </select>
-                    </div>
-                    <div class="input-wrap">
-                        <input type="file" name="imagen">
-                    </div>
-                    <div class="input-wrap flex-jc-sb">
-                        <button type="submit" class="button">guardar</button>
-                        <a href="/admin" class="button">Volver</a>
-                    </div>
+                <div class="product-edit__left">
 
-                </form>
+                </div>
+
+                <div class="product-edit__right">
+                    <form action="/admin/edit/<%= productEdit.id%>?_method=PUT" class="form" method="POST" enctype="multipart/form-data">
+                        <h1>Editar Producto</h1>
+                        <div class="input-wrap">
+                            <input type="text" name="nombre" placeholder="Nombre" required="required" value="<%= productEdit.nombre%>">
+                        </div>
+                        <div class="input-wrap">
+                            <input type="text" name="descripcion" placeholder="Descripción" required="required"
+                                value="<%= productEdit.descripcion%>">
+                        </div>
+                        <div class="input-wrap">
+                            <input type="number" name="precio" placeholder="Precio" required="required" value="<%= productEdit.precio%>">
+                        </div>
+                        <div class="input-wrap">
+                            <select name="descuento" id="validationCustom04" required>
+                                <option selected disabled value="#">Elija su descuento</option>
+                                <option value="0">Sin descuento</option>
+                                <option value="15">15%</option>
+                                <option value="30">30%</option>
+                            </select>
+                        </div>
+                        <div class="input-wrap">
+                            <input type="file" name="imagen">
+                        </div>
+                        <div class="input-wrap flex-jc-sb">
+                            <button type="submit" class="button">guardar</button>
+                            <a href="/admin" class="button">Volver</a>
+                        </div>
+    
+                    </form>
+                </div>
 
             </div>
 
