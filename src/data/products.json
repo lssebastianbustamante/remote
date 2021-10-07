@@ -1,11 +1,9 @@
 [
   {
-    "id": 3,
     "nombre": "Antares Atlántica",
     "descripcion": "Cerveza de gran cuerpo y agradable sabor en boca. Hecha a base de los mejores Lupulos",
-    "precio": "250",
-    "descuento": "30",
-    "imagen": "product-1631733210051.png"
+    "precio": "12222",
+    "id": "3"
   },
   {
     "id": 4,

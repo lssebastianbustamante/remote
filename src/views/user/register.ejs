@@ -9,16 +9,18 @@
 
             <section class="register">
                 <div class="form-wrap">
-                    <% if(typeof(errors) !='undefined' ){%>
-                        <ul class="alert alert-danger">
-                            <% errors.forEach(error=> { %>
-                                <li>
-                                    <%= error.msg%>
-                                </li>
-                                <%});%>
-                        </ul>
-                        <%}%>
+                    
                             <div class="form register-form">
+
+                                <% if(locals.errors){%>
+                                    <ul class="alert alert-danger">
+                                        <% errors.forEach(error=> { %>
+                                            <li>
+                                                <%= error.msg%>
+                                            </li>
+                                            <%});%>
+                                    </ul>
+                                    <%}%>
                                 <h1>Registro</h1>
                                 <form action="/user/register" method="POST" enctype="multipart/form-data">
                                     <div class="input-wrap">

@@ -45,7 +45,8 @@ module.exports = {
         } else {
             return res.render(path.resolve(__dirname, '../views/user/register'), {
                 title: 'Registro',
-                errors: errors.errors, old: req.body
+                errors: errors.errors, 
+                old: req.body
             });
         }
        

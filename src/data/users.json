@@ -54,5 +54,13 @@
     "password": "$2a$10$pq/DkcBgBmpNmH.T77.V/eDWmqTHhkMnQOVhXQcazUqL3jf363hX.",
     "avatar": "foto-1631618938856.png",
     "role": 1
+  },
+  {
+    "nombre": "Luis",
+    "apellido": "Bustamante",
+    "email": "luis@deveit.com",
+    "password": "$2a$10$4QMZoMigGycdle2sZL5EH.F.5wxWoI2h5NV0uugpiiNCuSlos3EW6",
+    "avatar": "foto-1633568870654.png",
+    "role": 1
   }
 ]
